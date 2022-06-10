@@ -36,6 +36,7 @@ public class AppInitializer {
         o1.setCustomer("Samson");
         o1.setTotal(150000);
 
+        //Order_Detail
         OrderDetail orderDetail1 = new OrderDetail();
         orderDetail1.setId("M001");
         orderDetail1.setOrder(o1);
